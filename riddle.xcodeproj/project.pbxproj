@@ -13,6 +13,7 @@
 		94A19C1C2BB7E0A3005A39F1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94A19C1B2BB7E0A3005A39F1 /* Base */; };
 		94A19C1E2BB7E0A4005A39F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A19C1D2BB7E0A4005A39F1 /* Assets.xcassets */; };
 		94A19C212BB7E0A4005A39F1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94A19C202BB7E0A4005A39F1 /* Base */; };
+		94A19C292BB7FF11005A39F1 /* Riddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A19C282BB7FF11005A39F1 /* Riddle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		94A19C1D2BB7E0A4005A39F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A19C202BB7E0A4005A39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A19C222BB7E0A4005A39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A19C282BB7FF11005A39F1 /* Riddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle.swift; sourceTree = "<group>"; };
+		94A19C2A2BB80B74005A39F1 /* ChenYuluoyan-Thin-Monospaced.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ChenYuluoyan-Thin-Monospaced.ttf"; path = "../../../Downloads/ChenYuluoyan-Thin-Monospaced.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +59,11 @@
 		94A19C132BB7E0A3005A39F1 /* riddle */ = {
 			isa = PBXGroup;
 			children = (
+				94A19C2A2BB80B74005A39F1 /* ChenYuluoyan-Thin-Monospaced.ttf */,
 				94A19C142BB7E0A3005A39F1 /* AppDelegate.swift */,
 				94A19C162BB7E0A3005A39F1 /* SceneDelegate.swift */,
 				94A19C182BB7E0A3005A39F1 /* ViewController.swift */,
+				94A19C282BB7FF11005A39F1 /* Riddle.swift */,
 				94A19C1A2BB7E0A3005A39F1 /* Main.storyboard */,
 				94A19C1D2BB7E0A4005A39F1 /* Assets.xcassets */,
 				94A19C1F2BB7E0A4005A39F1 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 				94A19C192BB7E0A3005A39F1 /* ViewController.swift in Sources */,
 				94A19C152BB7E0A3005A39F1 /* AppDelegate.swift in Sources */,
 				94A19C172BB7E0A3005A39F1 /* SceneDelegate.swift in Sources */,
+				94A19C292BB7FF11005A39F1 /* Riddle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +301,7 @@
 				DEVELOPMENT_TEAM = 2YP2GMMQ5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = riddle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +330,7 @@
 				DEVELOPMENT_TEAM = 2YP2GMMQ5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = riddle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
